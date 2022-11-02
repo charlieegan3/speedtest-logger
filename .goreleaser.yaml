@@ -29,5 +29,5 @@ checksum:
 snapshot:
   name_template: "{{ incpatch .Version }}-next"
 changelog:
-  use: github-native
+  use: github
   skip: false
